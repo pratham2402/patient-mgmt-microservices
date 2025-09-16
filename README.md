@@ -1,3 +1,4 @@
+![Project Banner](docs/Banner.png)
 # Patient Management System – Microservices Architecture
 
 A production-ready, cloud-native Patient Management System built with Java, Spring Boot, Docker, and AWS. This project demonstrates a robust microservices architecture with secure authentication, real-time and event-driven communication, and infrastructure as code for seamless deployment.
@@ -21,6 +22,8 @@ A production-ready, cloud-native Patient Management System built with Java, Spri
 ---
 
 ## Architecture Overview
+
+![Spring Boot Microservices Architecture](docs/SpringBootArchitecture.png)
 
 - **Microservices**: Each domain (auth, patient, billing, analytics) is a separate Spring Boot service, containerized with Docker.
 - **API Gateway**: Central entry point for all client requests, with load balancing and routing.
@@ -65,6 +68,9 @@ Each service has its own Dockerfile and can be built and run independently.
 ---
 
 ## Event-Driven & Real-Time Communication
+
+![gRPC Architecture](docs/gRPC_Architecture.png)
+
 - **Kafka**: Used for publishing and subscribing to domain events (e.g., patient created/updated).
 - **gRPC**: Used for high-performance, real-time service-to-service calls (see proto files in each service).
 - **REST**: Standard synchronous communication for most APIs.
@@ -164,4 +170,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## License
 This project is licensed under the MIT License.
-
