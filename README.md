@@ -1,4 +1,7 @@
 ![Project Banner](docs/Banner.png)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/docker-container.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/build-with-spring-boot.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 # Patient Management System – Microservices Architecture
 
 A production-ready, cloud-native Patient Management System built with Java, Spring Boot, Docker, and AWS. This project demonstrates a robust microservices architecture with secure authentication, real-time and event-driven communication, and infrastructure as code for seamless deployment.
