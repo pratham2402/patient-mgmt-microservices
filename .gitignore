@@ -1,0 +1,24 @@
+# Global ignores for Patient Management System
+.idea/
+*.iml
+*.ipr
+*.iws
+*.DS_Store
+*.log
+*.class
+cdk.out/
+# Node/npm (if ever used)
+node_modules/
+# Mac system files
+.DS_Store
+# Windows system files
+Thumbs.db
+# Ignore local environment files (if any)
+.env
+.env.*
+# Ignore build output (if any in root)
+build/
+target/
+# Ignore miscellaneous
+*.swp
+
